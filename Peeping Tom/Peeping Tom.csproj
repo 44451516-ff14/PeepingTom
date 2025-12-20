@@ -13,13 +13,10 @@
         <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
     </PropertyGroup>
     <PropertyGroup>
-        <DalamudLibPath>$(AppData)\XIVLauncher\addon\Hooks\dev</DalamudLibPath>
+        <DalamudLibPath>$(AppData)\XIVLauncherCN\addon\Hooks\dev</DalamudLibPath>
     </PropertyGroup>
     <PropertyGroup Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))'">
         <DalamudLibPath>$(DALAMUD_HOME)</DalamudLibPath>
-    </PropertyGroup>
-    <PropertyGroup Condition="'$(IsCI)' == 'true'">
-        <DalamudLibPath>$(HOME)/dalamud</DalamudLibPath>
     </PropertyGroup>
     <ItemGroup>
         <EmbeddedResource Include="Resources\target.wav"/>
@@ -59,7 +56,7 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="DalamudPackager" Version="14.0.1" />
+<!--        <PackageReference Include="DalamudPackager" Version="14.0.1" />-->
         <PackageReference Include="Fody" Version="6.9.1" PrivateAssets="all" />
         <PackageReference Include="NAudio.Core" Version="2.2.1"/>
         <PackageReference Include="NAudio.Wasapi" Version="2.2.1"/>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>{0} 设置</value>
+  </data>
+  <data name="SettingsMarkersTab" xml:space="preserve">
+    <value>标记</value>
+  </data>
+  <data name="SettingsMarkersMarkTarget" xml:space="preserve">
+    <value>标记你的目标</value>
+  </data>
+  <data name="SettingsMarkersMarkTargetColour" xml:space="preserve">
+    <value>目标标记颜色</value>
+  </data>
+  <data name="SettingsMarkersMarkTargetSize" xml:space="preserve">
+    <value>目标标记大小</value>
+  </data>
+  <data name="SettingsMarkersMarkTargeting" xml:space="preserve">
+    <value>标记正在瞄准你的玩家</value>
+  </data>
+  <data name="SettingsMarkersMarkTargetingColour" xml:space="preserve">
+    <value>瞄准标记颜色</value>
+  </data>
+  <data name="SettingsMarkersMarkTargetingSize" xml:space="preserve">
+    <value>瞄准标记大小</value>
+  </data>
+  <data name="SettingsFilterTab" xml:space="preserve">
+    <value>过滤器</value>
+  </data>
+  <data name="SettingsFilterLogParty" xml:space="preserve">
+    <value>记录队伍成员</value>
+  </data>
+  <data name="SettingsFilterLogAlliance" xml:space="preserve">
+    <value>记录同盟成员</value>
+  </data>
+  <data name="SettingsFilterLogCombat" xml:space="preserve">
+    <value>记录战斗中的瞄准者</value>
+  </data>
+  <data name="SettingsFilterLogSelf" xml:space="preserve">
+    <value>记录自己</value>
+  </data>
+  <data name="SettingsBehaviourTab" xml:space="preserve">
+    <value>行为</value>
+  </data>
+  <data name="SettingsBehaviourFocusHover" xml:space="preserve">
+    <value>悬停时聚焦目标</value>
+  </data>
+  <data name="SettingsBehaviourExamineEnabled" xml:space="preserve">
+    <value>Alt+点击时打开查看窗口</value>
+  </data>
+  <data name="SettingsSoundTab" xml:space="preserve">
+    <value>声音</value>
+  </data>
+  <data name="SettingsSoundEnabled" xml:space="preserve">
+    <value>被瞄准时播放声音</value>
+  </data>
+  <data name="SettingsSoundPath" xml:space="preserve">
+    <value>音频文件路径</value>
+  </data>
+  <data name="SettingsSoundPathHelp" xml:space="preserve">
+    <value>留空以使用内置声音。</value>
+  </data>
+  <data name="SettingsSoundVolume" xml:space="preserve">
+    <value>声音音量</value>
+  </data>
+  <data name="SettingsSoundDefaultDevice" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="SettingsSoundInvalidDevice" xml:space="preserve">
+    <value>无效设备</value>
+  </data>
+  <data name="SettingsSoundOutputDevice" xml:space="preserve">
+    <value>输出设备</value>
+  </data>
+  <data name="SettingsSoundCooldown" xml:space="preserve">
+    <value>声音冷却时间（秒）</value>
+  </data>
+  <data name="SettingsSoundPlayWhenClosed" xml:space="preserve">
+    <value>窗口关闭时也播放声音</value>
+  </data>
+  <data name="SettingsWindowTab" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="SettingsWindowOpenLogin" xml:space="preserve">
+    <value>登录时打开</value>
+  </data>
+  <data name="SettingsWindowShowConfigButton" xml:space="preserve">
+    <value>显示设置按钮</value>
+  </data>
+  <data name="SettingsWindowAllowCloseWithEscape" xml:space="preserve">
+    <value>允许使用ESC键关闭主窗口</value>
+  </data>
+  <data name="SettingsWindowAllowMovement" xml:space="preserve">
+    <value>允许移动主窗口</value>
+  </data>
+  <data name="SettingsWindowAllowResize" xml:space="preserve">
+    <value>允许调整主窗口大小</value>
+  </data>
+  <data name="SettingsWindowShowCombat" xml:space="preserve">
+    <value>战斗时显示窗口</value>
+  </data>
+  <data name="SettingsWindowShowInstance" xml:space="preserve">
+    <value>副本中显示窗口</value>
+  </data>
+  <data name="SettingsWindowShowCutscene" xml:space="preserve">
+    <value>过场动画时显示窗口</value>
+  </data>
+  <data name="SettingsHistoryTab" xml:space="preserve">
+    <value>历史记录</value>
+  </data>
+  <data name="SettingsHistoryEnabled" xml:space="preserve">
+    <value>显示之前的瞄准者</value>
+  </data>
+  <data name="SettingsHistoryRecordClosed" xml:space="preserve">
+    <value>窗口关闭时也记录历史</value>
+  </data>
+  <data name="SettingsHistoryAmount" xml:space="preserve">
+    <value>保留的之前瞄准者数量</value>
+  </data>
+  <data name="SettingsHistoryTimestamps" xml:space="preserve">
+    <value>显示时间戳</value>
+  </data>
+  <data name="SettingsAdvancedTab" xml:space="preserve">
+    <value>高级</value>
+  </data>
+  <data name="SettingsAdvancedPollFrequency" xml:space="preserve">
+    <value>轮询频率（毫秒）</value>
+  </data>
+  <data name="ExamineErrorToast" xml:space="preserve">
+    <value>{0} 距离太远，无法查看。</value>
+  </data>
+  <data name="MainTargetingYou" xml:space="preserve">
+    <value>正在瞄准你</value>
+  </data>
+  <data name="MainHelpExamine" xml:space="preserve">
+    <value>点击以链接，Alt+点击以查看，或右键点击以瞄准。</value>
+  </data>
+  <data name="MainHelpNoExamine" xml:space="preserve">
+    <value>点击以链接或右键点击以瞄准。</value>
+  </data>
+  <data name="SoundChatError" xml:space="preserve">
+    <value>无法播放声音文件：{0}</value>
+  </data>
+</root>

@@ -67,13 +67,9 @@ namespace PeepingTom {
             Language.Culture = new CultureInfo(langCode);
         }
 
-        private void OnTerritoryChange(ushort e) {
-            try {
-                var territory = Service.DataManager.GetExcelSheet<TerritoryType>().GetRow(e);
-                InPvp = territory.IsPvpZone;
-            } catch (KeyNotFoundException) {
-                Service.Log.Warning("Could not get territory for current zone");
-            }
+        private void OnTerritoryChange(ushort e)
+        {
+            InPvp = false;
         }
 
         private void OnCommand(string command, string args) {
