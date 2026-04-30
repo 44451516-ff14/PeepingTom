@@ -67,7 +67,7 @@ namespace PeepingTom {
             Language.Culture = new CultureInfo(langCode);
         }
 
-        private void OnTerritoryChange(ushort e)
+        private void OnTerritoryChange(uint e)
         {
             InPvp = false;
         }

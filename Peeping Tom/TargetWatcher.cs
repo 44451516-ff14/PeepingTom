@@ -56,7 +56,7 @@ namespace PeepingTom {
         }
 
         private void Update() {
-            var player = Service.ClientState.LocalPlayer;
+            var player = Service.ObjectTable.LocalPlayer;
             if (player == null) {
                 return;
             }

@@ -64,7 +64,7 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="DalamudPackager" Version="14.0.1" />
+        <PackageReference Include="DalamudPackager" Version="15.0.0" />
         <PackageReference Include="Fody" Version="6.9.1" PrivateAssets="all" />
         <PackageReference Include="NAudio.Core" Version="2.2.1"/>
         <PackageReference Include="NAudio.Wasapi" Version="2.2.1"/>
